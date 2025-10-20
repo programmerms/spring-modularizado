@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Wrapper script placeholder - execute gradle if installed or download wrapper distribution
+echo "This is a wrapper script placeholder. Ensure gradle or gradle-wrapper.jar is available to run the wrapper."

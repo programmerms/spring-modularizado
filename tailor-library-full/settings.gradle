@@ -1,0 +1,2 @@
+rootProject.name = 'tailor-library'
+include 'tailor-core', 'tailor-starter'
