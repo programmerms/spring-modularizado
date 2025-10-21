@@ -21,11 +21,12 @@
         <module name="DeclarationOrder"/>
         <module name="ModifierOrder"/>
         <module name="OuterTypeFilename"/>
-        <module name="FileTabCharacter">
-            <property name="eachLine" value="true"/>
-        </module>
-        <module name="NewlineAtEndOfFile"/>
+        <!-- FileSet checks must be outside TreeWalker -->
     </module>
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="true"/>
+    </module>
+    <module name="NewlineAtEndOfFile"/>
     <module name="FileLength">
         <property name="max" value="2000"/>
     </module>

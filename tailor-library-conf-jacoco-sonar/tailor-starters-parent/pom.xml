@@ -98,6 +98,12 @@
         </plugins>
     </build>
     <properties>
+        <!-- Caminho do relatório de cobertura agregado do JaCoCo -->
         <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+        
+        <!-- Propriedades Sonar (podem ser definidas via variáveis de ambiente) -->
+        <sonar.host.url>${env.SONAR_HOST_URL}</sonar.host.url>
+        <sonar.projectKey>${env.SONAR_PROJECT_KEY}</sonar.projectKey>
+        <sonar.organization>${env.SONAR_ORGANIZATION}</sonar.organization>
     </properties>
 </project>
